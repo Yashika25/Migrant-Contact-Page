@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Migrant Solutions | Contact Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <span id="company-nav"><a href="#">Migrant Solutions</a></span>
+            <span class="nav-list"><a href="#">Contact Us</a></span>
+            <span class="nav-list"><a href="#">Services</a></span>
+            <span class="nav-list"><a href="#">About Us</a></span>
+        </nav>
+    </header>
+
+    <main>
+        <form action="./contact.php" method="POST" autocomplete="on">
+            <input type="text" name="name" id="name" placeholder="Full Name: " />
+            <input type="email" name="email" id="email" placeholder="Email ID: " />
+            <input type="tel" name="phone" id="phone" placeholder="Phone Number: ">
+            <textarea name="message" id="message" cols="30" rows="6" placeholder="Message ..."></textarea>
+            <input type="submit" id="submit" value="SEND">
+        </form>
+    </main>
+
+</body>
+</html>
