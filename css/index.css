@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Serif Pro', serif;
+}
+
+body {
+    background: url(https://res.cloudinary.com/dpyanhld4/image/upload/v1598743687/Migrant/phil-desforges-IUrdCYJm1u4-unsplash_vivdxc.jpg) no-repeat;
+    background-size: cover;
+
+}
+
+nav {
+    background-color: #393D3F;
+    color: #FDFDFF;
+    width: 97vw;
+    height: 40px;
+    padding: 20px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.nav-list {
+    float: right;
+    margin-top: 10px;
+    padding-right: 5%;
+}
+
+#company-nav {
+    font-size: 2rem;
+}
+
+main {
+    background: #A76D60;
+    width: 40%;
+    height: auto;
+    opacity: 0.9;
+    padding: 2%;
+    margin: 2% auto 2% auto;
+    border-radius: 5%;
+}
+
+input, textarea {
+    width: 90%;
+    border: none;
+    border-radius: 20px;
+    padding: 4%;
+    margin: 2%;
+}
